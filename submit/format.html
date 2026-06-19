@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>格式规范 · 机械动力研究期刊</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Times New Roman', '宋体', serif;
+            background: #f9f8f6;
+            color: #2c2c2c;
+            line-height: 1.8;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 50px 65px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.05);
+            border-radius: 4px;
+        }
+        .journal-header {
+            border-bottom: 3px double #8b0000;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .journal-title {
+            font-size: 36px;
+            font-weight: bold;
+            letter-spacing: 4px;
+            color: #8b0000;
+            text-shadow: 1px 1px 0 #ddd;
+        }
+        .journal-subtitle {
+            font-size: 16px;
+            color: #555;
+            margin-top: 6px;
+            font-style: italic;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 20px 0 35px 0;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+            border-top: 1px solid #ddd;
+            flex-wrap: wrap;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #8b0000;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 4px 10px;
+            transition: background 0.2s, color 0.2s;
+        }
+        .nav a:hover {
+            background: #8b0000;
+            color: #fff;
+            border-radius: 3px;
+        }
+        .nav a.active {
+            background: #8b0000;
+            color: #fff;
+            border-radius: 3px;
+        }
+        h1 { font-size: 30px; margin: 30px 0 18px 0; border-bottom: 2px solid #eee; padding-bottom: 8px; }
+        h2 { font-size: 24px; margin: 28px 0 14px 0; color: #3d3d3d; }
+        h3 { font-size: 19px; margin: 20px 0 10px 0; color: #4a4a4a; }
+        p { margin-bottom: 16px; text-align: justify; }
+        ul, ol { margin-left: 30px; margin-bottom: 16px; }
+        li { margin-bottom: 6px; }
+        .table-wrap { overflow-x: auto; margin: 20px 0 25px 0; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 15px;
+            background: #fff;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px 14px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th { background: #f0ebe6; font-weight: bold; }
+        tr:nth-child(even) { background: #faf8f6; }
+        .code-block {
+            background: #2c2c2c;
+            color: #eaeaea;
+            padding: 16px 20px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            overflow-x: auto;
+            margin: 16px 0;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+        .footer {
+            margin-top: 40px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+            text-align: center;
+            color: #888;
+            font-size: 14px;
+        }
+        @media (max-width: 700px) {
+            .container { padding: 25px 20px; }
+            .journal-title { font-size: 26px; }
+            .nav { gap: 14px; }
+            .nav a { font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="journal-header">
+        <div class="journal-title">机械动力研究期刊</div>
+        <div class="journal-subtitle">Journal of Mechanical Power · 创刊号</div>
+    </div>
+
+    <div class="nav">
+        <a href="/index.html">首页</a>
+        <a href="/about.html">网站介绍</a>
+        <a href="/submit.html">投稿指南</a>
+        <a href="/submit/format.html" class="active">格式规范</a>
+        <a href="/submit/example.html">论文示例</a>
+    </div>
+
+    <h1>格式规范</h1>
+
+    <h2>一、文章类型</h2>
+    <p>本刊接受以下两类稿件：</p>
+    <div class="table-wrap">
+        <table>
+            <tr><th>类型</th><th>说明</th><th>建议字数</th></tr>
+            <tr><td><strong>研究论文</strong></td><td>针对某个机制或工程进行系统性的测试、分析与优化</td><td>2000～4000 字</td></tr>
+            <tr><td><strong>技术简报</strong></td><td>分享一个小技巧、简易装置或实用蓝图</td><td>800～1500 字</td></tr>
+        </table>
+    </div>
+
+    <h2>二、论文结构</h2>
+    <p>每篇研究论文必须包含以下部分（技术简报可适当简化）：</p>
+    <ol>
+        <li><strong>标题</strong>：简明扼要，一般不超过 25 字。</li>
+        <li><strong>作者</strong>：游戏 ID 或 GitHub 用户名。</li>
+        <li><strong>摘要</strong>：200 字以内，概括研究背景、方法、结果与结论。</li>
+        <li><strong>引言</strong>：研究动机、现有方案不足、创新点。</li>
+        <li><strong>核心原理</strong>：涉及的机械动力机制。</li>
+        <li><strong>实验 / 设计</strong>：建造步骤、测试环境、数据表格。</li>
+        <li><strong>结论</strong>：总结与展望。</li>
+        <li><strong>参考文献</strong>（可选）。</li>
+    </ol>
+
+    <h2>三、元数据（Front Matter）</h2>
+    <p>每个 Markdown 文件开头必须包含 YAML 格式的 Front Matter：</p>
+    <div class="code-block">
+---
+title: "基于机械动力的树场自动化构建及其效能分析"
+authors: ["创世研究员", "红石博士"]
+date: 2026-06-19
+summary: "采用递归种植-定向采伐策略，原木产量提升约40%。"
+tags: ["树场", "自动化", "动力传输"]
+---
+    </div>
+
+    <h2>四、审稿标准</h2>
+    <div class="table-wrap">
+        <table>
+            <tr><th>标准</th><th>说明</th></tr>
+            <tr><td><strong>创新性</strong></td><td>是否提出了新的设计方案或优化思路</td></tr>
+            <tr><td><strong>实用性</strong></td><td>设计能否在生存模式中正常建造和使用</td></tr>
+            <tr><td><strong>可读性</strong></td><td>行文流畅，结构清晰，图文并茂</td></tr>
+            <tr><td><strong>数据支撑</strong></td><td>结论是否有测试数据或对比验证</td></tr>
+        </table>
+    </div>
+
+    <h2>五、投稿方式</h2>
+    <p>请将写好的 Markdown 文件放入 <code>content/publications/</code> 目录，通过 Pull Request 提交。<br>详细流程请参阅 <a href="/submit.html">投稿指南</a>。</p>
+
+    <div class="footer">
+        © 2026 机械动力研究期刊 · 本刊采用开放获取（Open Access）模式
+    </div>
+</div>
+</body>
+</html>
