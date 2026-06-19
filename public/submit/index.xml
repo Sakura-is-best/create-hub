@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>机械动力研究期刊</title>
+    <link>http://localhost:1313/submit/</link>
+    <description>Recent content on 机械动力研究期刊</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/submit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/submit/example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/submit/example/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>格式规范</title>
+      <link>http://localhost:1313/submit/format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/submit/format/</guid>
+      <description>&lt;h2 id=&#34;论文结构&#34;&gt;论文结构&lt;/h2&gt;
+&lt;p&gt;每篇论文须包含以下部分：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;标题&lt;/strong&gt;：概括研究内容&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作者&lt;/strong&gt;：游戏 ID&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;摘要&lt;/strong&gt;：200字内，概述目的、方法、结论&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;引言&lt;/strong&gt;：背景与动机&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;核心原理&lt;/strong&gt;：涉及的机械动力机制&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实验/设计&lt;/strong&gt;：方案与数据&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;结论&lt;/strong&gt;：总结与展望&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;front-matter-示例&#34;&gt;Front Matter 示例&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;你的论文标题&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;authors&lt;/span&gt;: [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;你的名字&amp;#34;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;date&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;2026-06-19&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;summary&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;一句话摘要&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;tags&lt;/span&gt;: [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;机械动力&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;自动化&amp;#34;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
